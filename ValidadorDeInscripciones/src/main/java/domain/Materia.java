@@ -2,14 +2,15 @@ package domain;
 
 import java.util.List;
 
-public class Materia {
-    private List <Materia> correlativas;
+class Materia {
+    private List<Materia> correlativas;
 
+    // Getters and setters
     public List<Materia> getCorrelativas() {
-        return this.correlativas;
+        return correlativas;
     }
 
-    public void soyMateria(){
-        return;
+    public void setCorrelativas(List<Materia> correlativas) {
+        this.correlativas = correlativas;
     }
 }
